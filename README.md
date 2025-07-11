@@ -22,6 +22,7 @@
 - [Node.js](https://nodejs.org/) (for some LSPs and plugins)
 - [ripgrep](https://github.com/BurntSushi/ripgrep) and [fd](https://github.com/sharkdp/fd) (for Telescope)
 - [Python 3](https://www.python.org/) (for some plugins)
+- [FZF](https://github.com/junegunn/fzf)
 
 ### 2. Backup Existing Config
 
