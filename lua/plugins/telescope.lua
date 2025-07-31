@@ -19,12 +19,25 @@ return {
 		local telescope = require("telescope")
 		telescope.setup({
 			defaults = {
+				prompt_prefix = "   ",
+				selection_caret = " ",
+				entry_prefix = " ",
+				sorting_strategy = "ascending",
+
 				layout_strategy = "horizontal",
 				layout_config = {
-					prompt_position = "top",
+					horizontal = {
+						prompt_position = "top",
+						preview_width = 0.55,
+					},
+					width = 0.87,
+					height = 0.80,
 				},
-				sorting_strategy = "ascending",
 				winblend = 0,
+
+				mappings = {
+				n = { ["q"] = require("telescope.actions").close },
+				},
 			},
 		})
 		-- Load fzf if installed

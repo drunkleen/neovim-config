@@ -19,12 +19,12 @@ return {
 
         -- Buttons
         dashboard.section.buttons.val = {
-            dashboard.button("e", "📁  Open File Tree", ":Neotree toggle<CR>"),
-            dashboard.button("f", "🔍 Find File", ":Telescope find_files<CR>"),
-            dashboard.button("n", "📄 New File", ":ene <BAR> startinsert <CR>"),
-            dashboard.button("r", "🕑 Recent Files", ":Telescope oldfiles<CR>"),
-            dashboard.button("g", "🔎 Find Text", ":Telescope live_grep<CR>"),
-            dashboard.button("c", "⚙️  Config", ":e ~/.config/nvim/init.lua<CR>"),
+            dashboard.button("e", "  Open File Tree", ":Neotree toggle<CR>"),
+            dashboard.button("f", " Find File", ":Telescope find_files<CR>"),
+            dashboard.button("n", " New File", ":ene <BAR> startinsert <CR>"),
+            dashboard.button("r", "󰄉 Recent Files", ":Telescope oldfiles<CR>"),
+            dashboard.button("g", " Find Text", ":Telescope live_grep<CR>"),
+            dashboard.button("c", "  Config", ":e ~/.config/nvim/init.lua<CR>"),
             dashboard.button("q", "⏻ Quit", ":qa<CR>"),
         }
 
